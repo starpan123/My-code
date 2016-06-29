@@ -1,0 +1,20 @@
+<div class="am-cf admin-main">
+    <!-- sidebar start -->
+    <div class="admin-sidebar am-offcanvas" id="admin-offcanvas">
+        <div class="am-offcanvas-bar admin-offcanvas-bar">
+            <ul class="am-list admin-sidebar-list">
+                <li><a href="/yun/index.php/Admin/Index/index"><span class="am-icon-home"></span> 首页</a></li>
+                <li><a href="/yun/index.php/Admin/News/index"><span class="am-icon-newspaper-o"></span>新闻发布</a></li>
+            <div class="am-panel am-panel-default admin-sidebar-panel">
+                <div class="am-panel-bd">
+                    <p><span class="am-icon-bookmark"></span>当前系统时间</p>
+                    <p><?php echo date('Y-m-d H:m:s',strtotime('now'));?></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- sidebar end -->
+
+    <!-- content start -->
+    <div class="admin-content">
+

@@ -1,0 +1,8 @@
+[ 2016-06-01T12:28:32+08:00 ] 127.0.0.1 /yun/index.php/Home/Case/index
+ERR: 1146:La table 'thinkphp.think_cast' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_cast`
+
+[ 2016-06-01T12:29:30+08:00 ] 127.0.0.1 /yun/index.php/Home/Case/index
+ERR: 1146:La table 'thinkphp.think_cast' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_cast`
+

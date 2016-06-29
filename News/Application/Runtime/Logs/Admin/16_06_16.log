@@ -1,0 +1,30 @@
+[ 2016-06-16T12:47:36+08:00 ] 127.0.0.1 /yun/index.php/Admin/admin-user.html
+ERR: 无法加载控制器:Admin-user
+
+[ 2016-06-16T17:14:16+08:00 ] 127.0.0.1 /yun/index.php/Admin/News/
+ERR: 模板不存在:./Application/Admin/View/News/index.html
+
+[ 2016-06-16T17:17:16+08:00 ] 127.0.0.1 /yun/index.php/Admin/News/add
+ERR: 模板不存在:./Application/Admin/View/News/add.html
+
+[ 2016-06-16T17:17:19+08:00 ] 127.0.0.1 /yun/index.php/Admin/News/add
+ERR: 模板不存在:./Application/Admin/View/News/add.html
+
+[ 2016-06-16T17:17:19+08:00 ] 127.0.0.1 /yun/index.php/Admin/News/add
+ERR: 模板不存在:./Application/Admin/View/News/add.html
+
+[ 2016-06-16T17:17:20+08:00 ] 127.0.0.1 /yun/index.php/Admin/News/add
+ERR: 模板不存在:./Application/Admin/View/News/add.html
+
+[ 2016-06-16T17:17:20+08:00 ] 127.0.0.1 /yun/index.php/Admin/News/add
+ERR: 模板不存在:./Application/Admin/View/News/add.html
+
+[ 2016-06-16T17:17:21+08:00 ] 127.0.0.1 /yun/index.php/Admin/News/add
+ERR: 模板不存在:./Application/Admin/View/News/add.html
+
+[ 2016-06-16T17:17:23+08:00 ] 127.0.0.1 /yun/index.php/Admin/News/add
+ERR: 模板不存在:./Application/Admin/View/News/add.html
+
+[ 2016-06-16T17:17:56+08:00 ] 127.0.0.1 /yun/index.php/Admin/News/add
+ERR: 非法操作:add
+
