@@ -1,0 +1,11 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Top</title>
+</head>
+<body>
+      <h1>ThinkPHP新闻发布系统 </h1>
+      <p>欢迎你   <?php echo (session('username')); ?>     <a href="/think_message/index.php/Home/Login/doLogout" target="_top">退出</a></p>
+</body>
+</html>
