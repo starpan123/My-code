@@ -1,0 +1,532 @@
+[ 2016-11-28T14:23:11+08:00 ] ::1 /thinkbbs/Home/Board/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `board` [ RunTime:0.1750s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\wamp\www\thinkbbs\Application\Home\Controller\BoardController.class.php on line 30 and defined C:\wamp\www\thinkbbs\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\wamp\www\thinkbbs\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\wamp\www\thinkbbs\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\wamp\www\thinkbbs\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `board`  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.028001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.028001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.193011s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.194011s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.009000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.012001s ]
+
+[ 2016-11-28T14:23:15+08:00 ] ::1 /thinkbbs/index.php/Home/Board/detail/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `board` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `board` WHERE ( id=1 )  [ RunTime:0.0688s ]
+SQL: SHOW COLUMNS FROM `post` [ RunTime:0.0300s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `post` WHERE ( board=1 ) LIMIT 1   [ RunTime:0.0230s ]
+
+[ 2016-11-28T14:30:37+08:00 ] ::1 /thinkbbs/index.php/Home/Board/detail/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `board` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `board` WHERE ( id=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `post` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `post` WHERE ( board=1 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-11-28T14:30:38+08:00 ] ::1 /thinkbbs/index.php/Home/Board/detail/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `board` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `board` WHERE ( id=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `post` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `post` WHERE ( board=1 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-11-28T14:30:39+08:00 ] ::1 /thinkbbs/index.php/Home/Board/detail/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `board` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `board` WHERE ( id=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `post` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `post` WHERE ( board=1 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-11-28T14:32:22+08:00 ] ::1 /thinkbbs/index.php/Home/Board/detail/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `board` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `board` WHERE ( id=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `post` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `post` WHERE ( board=1 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-11-28T14:32:23+08:00 ] ::1 /thinkbbs/index.php/Home/Board/detail/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016600s ]
+SQL: SHOW COLUMNS FROM `board` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `board` WHERE ( id=1 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `post` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `post` WHERE ( board=1 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-11-28T14:33:15+08:00 ] ::1 /thinkbbs/index.php/Home/Board/detail/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `board` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `board` WHERE ( id=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `post` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `post` WHERE ( board=1 ) LIMIT 1   [ RunTime:0.0156s ]
+
+[ 2016-11-28T15:20:34+08:00 ] ::1 /thinkbbs/index.php/Home/Board/detail/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `board` [ RunTime:0.0176s ]
+SQL: SELECT * FROM `board` WHERE ( id=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `post` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `post` WHERE ( board=1 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-11-28T15:21:22+08:00 ] ::1 /thinkbbs/index.php/Home/Board/detail/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `board` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `board` WHERE ( id=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `post` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `post` WHERE ( board=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `post` WHERE ( board=1 ) LIMIT 0,8   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2016-11-28T15:21:25+08:00 ] ::1 /thinkbbs/index.php/Home/Board/detail/id/1/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `board` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `board` WHERE ( id=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `post` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `post` WHERE ( board=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `post` WHERE ( board=1 ) LIMIT 8,8   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-28T15:21:26+08:00 ] ::1 /thinkbbs/index.php/Home/Board/detail/id/1/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `board` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `board` WHERE ( id=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `post` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `post` WHERE ( board=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `post` WHERE ( board=1 ) LIMIT 16,8   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010000s ]
+
+[ 2016-11-28T15:21:30+08:00 ] ::1 /thinkbbs/index.php/Home/Board/detail/id/1/p/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `board` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `board` WHERE ( id=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `post` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `post` WHERE ( board=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `post` WHERE ( board=1 ) LIMIT 32,8   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-28T17:20:52+08:00 ] ::1 /thinkbbs/Home/Board/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `board` [ RunTime:0.0030s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\wamp\www\thinkbbs\Application\Home\Controller\BoardController.class.php on line 30 and defined C:\wamp\www\thinkbbs\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\wamp\www\thinkbbs\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\wamp\www\thinkbbs\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\wamp\www\thinkbbs\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `board`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-28T17:21:10+08:00 ] ::1 /thinkbbs/Home/Post/addpost
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 参数错误或者未定义:id
+
+[ 2016-11-28T17:24:06+08:00 ] ::1 /thinkbbs/Home/Post/addpost
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 参数错误或者未定义:id
+
+[ 2016-11-28T17:24:07+08:00 ] ::1 /thinkbbs/Home/Post/addpost
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 参数错误或者未定义:id
+
+[ 2016-11-28T17:24:07+08:00 ] ::1 /thinkbbs/Home/Post/addpost
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 参数错误或者未定义:id
+
+[ 2016-11-28T17:24:08+08:00 ] ::1 /thinkbbs/Home/Post/addpost
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 参数错误或者未定义:id
+
+[ 2016-11-28T17:25:06+08:00 ] ::1 /thinkbbs/Home/Board/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `board` [ RunTime:0.0060s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\wamp\www\thinkbbs\Application\Home\Controller\BoardController.class.php on line 30 and defined C:\wamp\www\thinkbbs\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\wamp\www\thinkbbs\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\wamp\www\thinkbbs\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\wamp\www\thinkbbs\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `board`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-11-28T17:25:12+08:00 ] ::1 /thinkbbs/Home/Board/addpost
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015601s ]
+ERR: 参数错误或者未定义:id
+
+[ 2016-11-28T17:29:22+08:00 ] ::1 /thinkbbs/Home/Post/addpost/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `post` [ RunTime:0.0060s ]
+SQL: INSERT INTO `post` (`board`,`text`,`own`,`author`) VALUES ('1','今天是国庆节，大家都放假在家！','1','xin@163.com'),('1','今天是国庆节，大家都放假在家！','1','xin@163.com'),('1','今天是国庆节，大家都放假在家！','1','xin@163.com'),('1','今天是国庆节，大家都放假在家！','1','xin@163.com'),('1','今天是国庆节，大家都放假在家！','1','xin@163.com'),('1','今天是国庆节，大家都放假在家！','1','xin@163.com'),('1','今天是国庆节，大家都放假在家！','1','xin@163.com'),('1','今天是国庆节，大家都放假在家！','1','xin@163.com'),('1','今天是国庆节，大家都放假在家！','1','xin@163.com') [ RunTime:0.0780s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005001s ]
+
+[ 2016-11-28T20:49:35+08:00 ] ::1 /thinkbbs/Home/Post/addpost/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `post` [ RunTime:0.0312s ]
+SQL: INSERT INTO `post` (`board`,`text`,`own`,`author`) VALUES ('1','今天是国庆节，大家都放假在家！','1','xin@163.com'),('1','今天是国庆节，大家都放假在家！','1','xin@163.com'),('1','今天是国庆节，大家都放假在家！','1','xin@163.com'),('1','今天是国庆节，大家都放假在家！','1','xin@163.com'),('1','今天是国庆节，大家都放假在家！','1','xin@163.com'),('1','今天是国庆节，大家都放假在家！','1','xin@163.com'),('1','今天是国庆节，大家都放假在家！','1','xin@163.com'),('1','今天是国庆节，大家都放假在家！','1','xin@163.com'),('1','今天是国庆节，大家都放假在家！','1','xin@163.com') [ RunTime:0.1092s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.031200s ]
+
+[ 2016-11-28T20:49:35+08:00 ] ::1 /thinkbbs/Home/Post/addpost/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `post` [ RunTime:0.0060s ]
+SQL: INSERT INTO `post` (`board`,`text`,`own`,`author`) VALUES ('1','今天是国庆节，大家都放假在家！','1','xin@163.com'),('1','今天是国庆节，大家都放假在家！','1','xin@163.com'),('1','今天是国庆节，大家都放假在家！','1','xin@163.com'),('1','今天是国庆节，大家都放假在家！','1','xin@163.com'),('1','今天是国庆节，大家都放假在家！','1','xin@163.com'),('1','今天是国庆节，大家都放假在家！','1','xin@163.com'),('1','今天是国庆节，大家都放假在家！','1','xin@163.com'),('1','今天是国庆节，大家都放假在家！','1','xin@163.com'),('1','今天是国庆节，大家都放假在家！','1','xin@163.com') [ RunTime:0.0740s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-28T20:49:35+08:00 ] ::1 /thinkbbs/Home/Post/addpost/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `post` [ RunTime:0.0000s ]
+SQL: INSERT INTO `post` (`board`,`text`,`own`,`author`) VALUES ('1','今天是国庆节，大家都放假在家！','1','xin@163.com'),('1','今天是国庆节，大家都放假在家！','1','xin@163.com'),('1','今天是国庆节，大家都放假在家！','1','xin@163.com'),('1','今天是国庆节，大家都放假在家！','1','xin@163.com'),('1','今天是国庆节，大家都放假在家！','1','xin@163.com'),('1','今天是国庆节，大家都放假在家！','1','xin@163.com'),('1','今天是国庆节，大家都放假在家！','1','xin@163.com'),('1','今天是国庆节，大家都放假在家！','1','xin@163.com'),('1','今天是国庆节，大家都放假在家！','1','xin@163.com') [ RunTime:0.0156s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-28T20:49:35+08:00 ] ::1 /thinkbbs/Home/Post/addpost/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `post` [ RunTime:0.0000s ]
+SQL: INSERT INTO `post` (`board`,`text`,`own`,`author`) VALUES ('1','今天是国庆节，大家都放假在家！','1','xin@163.com'),('1','今天是国庆节，大家都放假在家！','1','xin@163.com'),('1','今天是国庆节，大家都放假在家！','1','xin@163.com'),('1','今天是国庆节，大家都放假在家！','1','xin@163.com'),('1','今天是国庆节，大家都放假在家！','1','xin@163.com'),('1','今天是国庆节，大家都放假在家！','1','xin@163.com'),('1','今天是国庆节，大家都放假在家！','1','xin@163.com'),('1','今天是国庆节，大家都放假在家！','1','xin@163.com'),('1','今天是国庆节，大家都放假在家！','1','xin@163.com') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-28T20:49:36+08:00 ] ::1 /thinkbbs/Home/Post/addpost/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `post` [ RunTime:0.0050s ]
+SQL: INSERT INTO `post` (`board`,`text`,`own`,`author`) VALUES ('1','今天是国庆节，大家都放假在家！','1','xin@163.com'),('1','今天是国庆节，大家都放假在家！','1','xin@163.com'),('1','今天是国庆节，大家都放假在家！','1','xin@163.com'),('1','今天是国庆节，大家都放假在家！','1','xin@163.com'),('1','今天是国庆节，大家都放假在家！','1','xin@163.com'),('1','今天是国庆节，大家都放假在家！','1','xin@163.com'),('1','今天是国庆节，大家都放假在家！','1','xin@163.com'),('1','今天是国庆节，大家都放假在家！','1','xin@163.com'),('1','今天是国庆节，大家都放假在家！','1','xin@163.com') [ RunTime:0.0050s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-11-28T20:49:37+08:00 ] ::1 /thinkbbs/Home/Post/addpost/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `post` [ RunTime:0.0040s ]
+SQL: INSERT INTO `post` (`board`,`text`,`own`,`author`) VALUES ('1','今天是国庆节，大家都放假在家！','1','xin@163.com'),('1','今天是国庆节，大家都放假在家！','1','xin@163.com'),('1','今天是国庆节，大家都放假在家！','1','xin@163.com'),('1','今天是国庆节，大家都放假在家！','1','xin@163.com'),('1','今天是国庆节，大家都放假在家！','1','xin@163.com'),('1','今天是国庆节，大家都放假在家！','1','xin@163.com'),('1','今天是国庆节，大家都放假在家！','1','xin@163.com'),('1','今天是国庆节，大家都放假在家！','1','xin@163.com'),('1','今天是国庆节，大家都放假在家！','1','xin@163.com') [ RunTime:0.0030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-28T22:16:58+08:00 ] ::1 /thinkbbs/Home/Post/index/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `post` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `post` WHERE ( own=0 and id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `post` WHERE ( own=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `post` WHERE ( own=1 ) LIMIT 0,8   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: board C:\wamp\www\thinkbbs\Application\Runtime\Cache\Home\ece92b4a7b3a116fa216529aa8161e97.php 第 12 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.079005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.079005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-11-28T22:19:00+08:00 ] ::1 /thinkbbs/Home/Post/index/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `post` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `post` WHERE ( own=0 and id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `post` WHERE ( own=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `post` WHERE ( own=1 ) LIMIT 0,8   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-28T22:19:41+08:00 ] ::1 /thinkbbs/Home/Post/index/id/__ROOT_/Home/Post/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `post` [ RunTime:0.0000s ]
+ERR: 1054:Champ '__ROOT_' inconnu dans where clause
+ [ SQL语句 ] : SELECT * FROM `post` WHERE ( own=0 and id=__ROOT_ ) LIMIT 1  
+ERR: 1054:Champ '__ROOT_' inconnu dans where clause
+ [ SQL语句 ] : SELECT * FROM `post` WHERE ( own=0 and id=__ROOT_ ) LIMIT 1  
+
+[ 2016-11-28T22:20:55+08:00 ] ::1 /thinkbbs/Home/Board/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `board` [ RunTime:0.0050s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\wamp\www\thinkbbs\Application\Home\Controller\BoardController.class.php on line 30 and defined C:\wamp\www\thinkbbs\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\wamp\www\thinkbbs\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\wamp\www\thinkbbs\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\wamp\www\thinkbbs\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `board`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.077004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-11-28T22:20:58+08:00 ] ::1 /thinkbbs/index.php/Home/Board/detail/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `board` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `board` WHERE ( id=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `post` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `post` WHERE ( board=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `post` WHERE ( board=1 ) LIMIT 0,8   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
