@@ -1,0 +1,67 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: Administrator
+ * Date: 2017/1/10
+ * Time: 16:53
+ */
+function my_product_menu(){
+  $items = array();
+  $items['my/my_product_form'] = array(
+    'title'=>'my_product',
+    'description' => 'Configuration for my_product module',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('my_product_form'),
+    'access arguments' => array('view my product'),
+    'type' => MENU_NORMAL_ITEM,
+    'file' => 'views/my_product_list.inc'
+  );
+
+  $items['my/%/edit'] = array(
+    'title' => 'Edit product',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('my_product_edit', 1),
+    'access arguments' => array('view my product'),
+    'type' => MENU_LOCAL_TASK,
+    'file' => 'views/my_product_edit.inc',
+  );
+
+  $items['my/%/version_management'] = array(
+    'title' => 'Version Management',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('my_product_version_management',1),
+    'access arguments' => array('view my product'),
+    'type' => MENU_LOCAL_TASK,
+    'file' => 'views/my_product_version_management.inc',
+  );
+
+  $items['my/add'] = array(
+    'title' => 'Product Add',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('my_product_add'),
+    'access arguments' => array('view my product'),
+    'type' => MENU_LOCAL_TASK,
+    'file' => 'views/my_product_add.inc',
+  );
+
+  $items['my/%/version_add'] = array(
+    'title' => 'Version Add',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('my_product_version_add',1),
+    'access arguments' => array('view my product'),
+    'type' => MENU_LOCAL_TASK,
+    'file' => 'views/my_product_version_add.inc',
+  );
+
+  return $items;
+}
+
+function my_product_permission(){
+  $permissions = array(
+    'administer my product' => array(
+      'title' => t('Administer my product'),
+    ),
+  );
+  return $permissions;
+}
+
