@@ -1,7 +1,0 @@
-name = my product
-description = This a product version management
-core = 7.x
-package = Product
-version = 1.x
-files[] = 'controllers/ProductListController.php'
-files[] = 'models/Product.php'
