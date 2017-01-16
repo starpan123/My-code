@@ -1,0 +1,29 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: Administrator
+ * Date: 2017/1/10
+ * Time: 12:01
+ */
+function my_test_menu(){
+  $items = array();
+  $items['my/my_test_form'] = array(
+    'title'=>'my_test',
+    'description' => 'Configuration for my_test module',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('my_test_form'),
+    'access arguments' => array('administer my test'),
+    'type' => MENU_NORMAL_ITEM,
+    'file' => 'my_test.inc'
+  );
+  return $items;
+}
+
+function my_test_permission(){
+  $permissions = array(
+    'administer my test' => array(
+      'title' => t('Administer my test'),
+    ),
+  );
+  return $permissions;
+}
